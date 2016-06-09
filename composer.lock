@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1106380d95cadfccabc8f46a89ebb9e8",
-    "content-hash": "06869dda4dadfad3a121ba18baa7d18c",
+    "hash": "f9a0e07d17022447bb5da4adfcc7e08e",
+    "content-hash": "f52c3d5df0ebb2363ce95102b51890e4",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -555,6 +555,55 @@
                 "yii2"
             ],
             "time": "2016-06-05 20:34:32"
+        },
+        {
+            "name": "yiisoft/yii2-elasticsearch",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-elasticsearch.git",
+                "reference": "18babbee27d8d6914b9e0b032fa6d3c3361229a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-elasticsearch/zipball/18babbee27d8d6914b9e0b032fa6d3c3361229a4",
+                "reference": "18babbee27d8d6914b9e0b032fa6d3c3361229a4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\elasticsearch\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc"
+                }
+            ],
+            "description": "Elasticsearch integration and ActiveRecord for the Yii framework",
+            "keywords": [
+                "active-record",
+                "elasticsearch",
+                "fulltext",
+                "search",
+                "yii2"
+            ],
+            "time": "2016-05-16 15:24:39"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
